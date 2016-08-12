@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace RobotProject
 {
-    class Alien
+    class Alien : Robot
     {
+        public Alien (string name, string purpose, int age)
+        {
+            this.name = name;
+            this.age = age;
+            this.purpose = purpose;
+            this.origin = "Kodetopia";
+        }
+
+
     }
 }

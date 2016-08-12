@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alien.cs" />
+    <Compile Include="Earthling.cs" />
+    <Compile Include="Conversation.cs" />
+    <Compile Include="Location.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Robot.cs" />
+    <Compile Include="Speech.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
